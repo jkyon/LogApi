@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Logger.Infrastructure\Logger.Infrastructure.csproj" />
+    <ProjectReference Include="..\Logger.Models\Logger.Models.csproj" />
+  </ItemGroup>
+
+</Project>
